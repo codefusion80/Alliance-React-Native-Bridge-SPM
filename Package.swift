@@ -24,7 +24,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AllianceReactNativeBridge",
-            url: "https://github.com/codefusion80/Alliance-React-Native-Bridge-SPM/releases/download/1.0.4/AllianceReactNativeBridge.xcframework.zip",
+            url: "https://github.com/codefusion80/Alliance-React-Native-Bridge-SPM/releases/download/1.0.5/AllianceReactNativeBridge.xcframework.zip",
             checksum: "9117771785f7393a1bc2ca966abf7664180cdca421511292ce5cc5153342551b"
         ),
          .binaryTarget(
@@ -34,7 +34,7 @@ let package = Package(
         ),
         .binaryTarget(
            name: "BlazeSDKAlliance",
-           url: "https://github.com/codefusion80/Alliance-React-Native-Bridge-SPM/releases/download/1.0.4/BlazeSDKAlliance.xcframework.zip",
+           url: "https://github.com/codefusion80/Alliance-React-Native-Bridge-SPM/releases/download/1.0.5/BlazeSDKAlliance.xcframework.zip",
            checksum: "3c6ea9b6ceea8ab6dac7a55c05bb8bbddad2bbac3bbfae475f2d2b7fe806631a"
        )
     ]
