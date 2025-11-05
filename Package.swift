@@ -24,7 +24,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AllianceReactNativeBridge",
-            url: "https://github.com/codefusion80/Alliance-React-Native-Bridge-SPM/releases/download/1.0.0/AllianceReactNativeBridge.xcframework.zip",
+            url: "https://github.com/codefusion80/Alliance-React-Native-Bridge-SPM/releases/download/1.0.2/AllianceReactNativeBridge.xcframework.zip",
             checksum: "9117771785f7393a1bc2ca966abf7664180cdca421511292ce5cc5153342551b"
         ),
          .binaryTarget(
