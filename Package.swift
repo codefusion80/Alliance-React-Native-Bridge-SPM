@@ -12,7 +12,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "AllianceReactNativeBridge",
-            targets: ["AllianceReactNativeBridgeWrapper","Hermes","BlazeSDK","BlazeGAM"]),
+            targets: ["AllianceReactNativeBridgeWrapper","Hermes","BlazeSDKAlliance"]),
     ],
     targets: [
         .target(
@@ -33,7 +33,7 @@ let package = Package(
             checksum: "de951bd55e7b636b95b019acdf19e464e362a7e97d5a94c4d0777089ff59c5c2"
         ),
         .binaryTarget(
-           name: "BlazeSDK",
+           name: "BlazeSDKAlliance",
            url: "https://github.com/AdeptMobile/Alliance-React-Native-Bridge-SPM/releases/download/1.1.20/BlazeSDK.xcframework.zip",
            checksum: "3c6ea9b6ceea8ab6dac7a55c05bb8bbddad2bbac3bbfae475f2d2b7fe806631a"
        )
